@@ -23,7 +23,7 @@ public class Purchase {
     //mrp>pricing
     // all arguments contructor 
     // standard getters and setters
-   
+   ////Using Get and Set methods to access private variables
     public String getName() {
         return name;
     }
