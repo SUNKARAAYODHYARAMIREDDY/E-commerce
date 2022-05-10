@@ -4,6 +4,7 @@ public class Purchase {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long cust_id;
   //We are adding some constraints like product name is not null
@@ -16,7 +17,7 @@ public class Purchase {
 
     private String pictureUrl;
 
-    private int qunatity;
+    private int quantity;
   
     private float mrp;
     //mrp>pricing
