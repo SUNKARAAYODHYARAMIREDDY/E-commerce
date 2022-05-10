@@ -1,5 +1,5 @@
 @Entity
-public class Purchase {
+public class Customer {
 //Identity will generate unique keys
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -18,6 +18,31 @@ public class Purchase {
     private long phno;
   
    private String address;
+    public String getUserName() {
+        return name;
+    }
+
+    public void setUserName(String name) {
+        this.name = name;
+    }
+    
+    public long getId(){
+        return cust_id;
+    }
+    public String getemailid() {
+        return email;
+    }
+
+    public void setemailid(String email) {
+        this.email = email;
+    }
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
     // all arguments contructor 
     // standard getters and setters
 }
