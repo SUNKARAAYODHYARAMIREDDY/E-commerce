@@ -18,6 +18,7 @@ public class Customer {
     private long phno;
   
    private String address;
+    //Using Get and Set methods to access private variables
     public String getUserName() {
         return name;
     }
