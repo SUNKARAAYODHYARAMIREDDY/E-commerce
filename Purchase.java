@@ -11,6 +11,7 @@ public class Purchase {
     @Basic(optional = false)
     private String name;
 
+   
     private Double price;
 
     private String pictureUrl;
@@ -18,6 +19,7 @@ public class Purchase {
     private int qunatity;
   
     private float mrp;
+    //mrp>pricing
     // all arguments contructor 
     // standard getters and setters
 }
