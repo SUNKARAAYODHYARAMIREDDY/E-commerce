@@ -8,4 +8,4 @@
     <artifactId>spring-boot-starter-web</artifactId>
     <version>2.2.2.RELEASE</version>
 </dependency>
-<!--These are some dependcies we need -->
+<!--These are some dependcies we need and used spring initializr-->
